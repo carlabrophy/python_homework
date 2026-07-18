@@ -1,5 +1,4 @@
 import traceback
-import csv
 
 
 #####################
@@ -15,7 +14,7 @@ try:
 
             file.write(user_input + "\n")
 
-            if user_input == "done for now" or user_input == "that's it":
+            if user_input == "done for now":
                 break
 
             prompt = "What else? "

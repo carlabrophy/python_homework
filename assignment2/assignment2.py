@@ -57,9 +57,6 @@ def column_index(column_name):
     return employees["fields"].index(column_name)
 
 
-employees = read_employees()
-print(employees)
-
 employee_id_column = column_index("employee_id")
 print(employee_id_column)
 
